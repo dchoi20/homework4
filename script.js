@@ -47,7 +47,6 @@ let questionIndex = 0;
 let initialScore = 0;
 let maxQuestion = 4;
 
-console.log(lastQuestionIndex);
 let currentScore = document.getElementById("score");
 
 getNewQuestion = () => {
