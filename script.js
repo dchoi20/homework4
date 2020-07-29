@@ -36,8 +36,6 @@ let questions = [
   },
 ];
 
-console.log(questions.length);
-
 // DISPLAY QUESTIONS
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
@@ -45,7 +43,6 @@ let display = document.getElementById("display");
 
 let questionIndex = 0;
 let initialScore = 0;
-let maxQuestion = 4;
 
 let currentScore = document.getElementById("score");
 
