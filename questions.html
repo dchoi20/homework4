@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./questions.css">
+</head>
+
+<body>
+    <header>
+        <a href="./highscore.html" class="w3-display-topleft">High Score</a>
+        <div>
+            <h4 class="w3-display-topright">Seconds left: <span id="secondsLeft">30</span></h4>
+            <button class="w3-display-topmiddle" id="startBtn">Start Quiz</button>
+        </div>
+    </header>
+    <br>
+    <div class="container" id="displayQuestion">
+        <h4>Current Score: <span id="score">0</span></h4>
+
+        <div id="game" class="justify-content flex-column">
+            <h2 id="question">What is the answer</h2>
+            <div class="choice-container">
+                <p class="choice-prefix"></p>
+                <p id="choiceA" class="choice-text">Choice 1</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix"></p>
+                <p id="choiceB" class="choice-text">Choice 2</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix"></p>
+                <p id="choiceC" class="choice-text">Choice 3</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix"></p>
+                <p id="choiceD" class="choice-text">Choice 4</p>
+            </div>
+
+            <hr>
+            <div id="display">
+                <div id="finalScore"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
